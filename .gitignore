@@ -1,0 +1,363 @@
+# ============================================================
+
+# PROGRAMACIÓN II
+
+# .gitignore para proyectos y subproyectos
+
+# Python / Django / Odoo
+
+# ============================================================
+
+# ------------------------------------------------------------
+
+# PYTHON - Archivos compilados y caché
+
+# ------------------------------------------------------------
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Bytecode
+
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------------------------------------------
+
+# ENTORNOS VIRTUALES
+
+# ------------------------------------------------------------
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# Python virtualenv
+
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+*.egg
+*.egg-info/
+**/*.egg-info/
+
+# ------------------------------------------------------------
+
+# PYTHON PACKAGING
+
+# ------------------------------------------------------------
+
+build/
+dist/
+wheels/
+*.whl
+
+# ------------------------------------------------------------
+
+# DJANGO
+
+# ------------------------------------------------------------
+
+# Base de datos local
+
+db.sqlite3
+db.sqlite3-journal
+
+**/db.sqlite3
+**/db.sqlite3-journal
+
+# Archivos estáticos generados
+
+staticfiles/
+**/staticfiles/
+
+# Media subida por usuarios
+
+media/
+**/media/
+
+# Archivos de migración compilados
+
+**/migrations/**pycache**/
+
+# ------------------------------------------------------------
+
+# DJANGO - Variables de entorno y configuración local
+
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+
+# ------------------------------------------------------------
+
+# ODOO
+
+# ------------------------------------------------------------
+
+# Sesiones y archivos temporales
+
+*.log
+*.log.*
+odoo.log
+odoo-server.log
+
+# Filestore
+
+filestore/
+**/filestore/
+
+# Odoo attachments / sesiones
+
+sessions/
+**/sessions/
+
+# Directorios generados por Odoo
+
+*.pid
+*.lock
+
+# Configuraciones locales
+
+odoo.conf.local
+odoo.local.conf
+
+# ------------------------------------------------------------
+
+# BASES DE DATOS
+
+# ------------------------------------------------------------
+
+# PostgreSQL dumps
+
+*.sql
+*.dump
+*.backup
+*.pgsql
+
+# SQLite
+
+*.sqlite
+*.sqlite3
+
+# ------------------------------------------------------------
+
+# TESTING
+
+# ------------------------------------------------------------
+
+.pytest_cache/
+**/.pytest_cache/
+
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+**/htmlcov/
+
+.tox/
+.nox/
+
+.hypothesis/
+**/.hypothesis/
+
+# unittest
+
+*.test
+test-results/
+
+# ------------------------------------------------------------
+
+# JUPYTER NOTEBOOK
+
+# ------------------------------------------------------------
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+
+# TYPE CHECKING / LINTING
+
+# ------------------------------------------------------------
+
+.mypy_cache/
+**/.mypy_cache/
+
+.pyre/
+.pytype/
+
+.ruff_cache/
+**/.ruff_cache/
+
+.pyright/
+
+# ------------------------------------------------------------
+
+# IDE / EDITORES
+
+# ------------------------------------------------------------
+
+# Visual Studio Code
+
+.vscode/
+**/.vscode/
+
+# Exceptuar configuraciones que se quieran compartir
+
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+
+.idea/
+**/.idea/
+
+# Sublime Text
+
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+
+*.swp
+*.swo
+*~
+
+# Emacs
+
+*~
+#*#
+
+# ------------------------------------------------------------
+
+# SISTEMA OPERATIVO
+
+# ------------------------------------------------------------
+
+# Linux
+
+.directory
+.Trash-*
+*~
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+
+# VARIABLES DE ENTORNO / SECRETOS
+
+# ------------------------------------------------------------
+
+*.secret
+*.secrets
+*.key
+*.pem
+*.crt
+*.p12
+
+# No subir credenciales
+
+credentials.json
+service-account.json
+secrets.json
+
+**/credentials.json
+**/service-account.json
+**/secrets.json
+
+# ------------------------------------------------------------
+
+# ARCHIVOS TEMPORALES
+
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+
+# ------------------------------------------------------------
+
+# LOGS
+
+# ------------------------------------------------------------
+
+*.log
+logs/
+**/logs/
+
+# ------------------------------------------------------------
+
+# DOCUMENTACIÓN GENERADA
+
+# ------------------------------------------------------------
+
+_site/
+docs/_build/
+
+# ------------------------------------------------------------
+
+# ARCHIVOS DE CONFIGURACIÓN LOCALES
+
+# ------------------------------------------------------------
+
+*.local
+*.local.*
+config.local.*
+settings.local.py
+
+# ------------------------------------------------------------
+
+# PYENV
+
+# ------------------------------------------------------------
+
+.python-version
+
+# ------------------------------------------------------------
+
+# POETRY
+
+# ------------------------------------------------------------
+
+# No ignorar pyproject.toml ni poetry.lock
+
+# poetry.lock puede ser versionado en proyectos de aplicación
+
+# ----------------------------------
