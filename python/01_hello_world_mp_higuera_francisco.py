@@ -1,5 +1,5 @@
-print("¡Hola, mundo!")
-print("STAR WARS")
+print("¡Bienvenido a mi zapateria!")
+print("VENTAS DE ZAPATOS")
 print("EPISODE I: LA AMENAZA FANTASMA")
 print("La Federación de Comercio ha establecido un bloqueo en Naboo.")
 print("Los Jedi son enviados a negociar...")
